@@ -1,0 +1,265 @@
+{
+    "level": [
+        {
+            "type": "spritesheet",
+            "key": "tile_sheet",
+            "url": "assets/maps/tile_sheet.png",
+            "frameWidth": 64,
+            "frameHeight": 64,
+            "frameMax": -1,
+            "margin": 0,
+            "spacing": 0
+        },
+        {
+            "type": "image",
+            "key": "mono",
+            "url": "assets/images/mono.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "tree2",
+            "url": "assets/images/tree2.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "tree1",
+            "url": "assets/images/tree1.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "wall1",
+            "url": "assets/images/wall1.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "buttonRight",
+            "url": "assets/images/buttonRight.png",
+            "overwrite": false
+        },
+        {
+            "type": "atlas",
+            "key": "actors_img",
+            "textureURL": "assets/actors/actors.png",
+            "atlasURL": "assets/actors/actors.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "json",
+            "key": "actors",
+            "url": "assets/actors/actors.scon",
+            "overwrite": false
+        },
+        {
+            "type": "atlas",
+            "key": "enemy1",
+            "textureURL": "assets/aliens/enemy1.png",
+            "atlasURL": "assets/aliens/enemy1.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "atlas",
+            "key": "enemy2",
+            "textureURL": "assets/aliens/enemy2.png",
+            "atlasURL": "assets/aliens/enemy2.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "atlas",
+            "key": "enemy3",
+            "textureURL": "assets/aliens/enemy3.png",
+            "atlasURL": "assets/aliens/enemy3.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "atlas",
+            "key": "enemy4",
+            "textureURL": "assets/aliens/enemy4.png",
+            "atlasURL": "assets/aliens/enemy4.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "spritesheet",
+            "key": "explosionBlood",
+            "url": "assets/images/explosionBlood.png",
+            "frameWidth": 64,
+            "frameHeight": 64,
+            "frameMax": -1,
+            "margin": 0,
+            "spacing": 0
+        },
+        {
+            "type": "image",
+            "key": "hpbarGreen",
+            "url": "assets/images/hpbarGreen.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "hpbarSoftred",
+            "url": "assets/images/hpbarSoftred.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "btnAboutme",
+            "url": "assets/images/btnAboutme.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "btnBack",
+            "url": "assets/images/btnBack.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "item1",
+            "url": "assets/images/item1.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "item2",
+            "url": "assets/images/item2.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "item3",
+            "url": "assets/images/item3.png",
+            "overwrite": false
+        },
+        {
+            "type": "tilemap",
+            "key": "map1",
+            "url": "assets/maps/map1.json",
+            "format": "TILED_JSON"
+        },
+        {
+            "type": "tilemap",
+            "key": "test",
+            "url": "assets/maps/test.json",
+            "format": "TILED_JSON"
+        },
+        {
+            "type": "image",
+            "key": "gameoverImg",
+            "url": "assets/images/gameoverImg.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "member1",
+            "url": "assets/images/member1.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "member2",
+            "url": "assets/images/member2.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "member3",
+            "url": "assets/images/member3.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "member4",
+            "url": "assets/images/member4.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "member5",
+            "url": "assets/images/member5.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "spritesheet",
+            "key": "warpSprite",
+            "url": "assets/images/warpSprite.png",
+            "frameWidth": 64,
+            "frameHeight": 64,
+            "frameMax": -1,
+            "margin": 0,
+            "spacing": 0
+        },
+        {
+            "type": "spritesheet",
+            "key": "bg1",
+            "url": "assets/images/bg1.jpg",
+            "frameWidth": 0,
+            "frameHeight": 0,
+            "frameMax": -1,
+            "margin": 0,
+            "spacing": 0
+        },
+        {
+            "type": "tilemap",
+            "key": "map2",
+            "url": "assets/maps/map2.json",
+            "format": "TILED_JSON"
+        },
+        {
+            "type": "audio",
+            "key": "attackAudio",
+            "urls": ["assets/audio/attackAudio.wav"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "ahh",
+            "urls": ["assets/audio/ahh.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "eatAudio1",
+            "urls": ["assets/audio/eatAudio1.wav"],
+            "autoDecode": true
+        },
+        {
+            "type": "atlas",
+            "key": "player",
+            "textureURL": "assets/actors/player.png",
+            "atlasURL": "assets/actors/player.json",
+            "format": "TEXTURE_ATLAS_JSON_HASH"
+        },
+        {
+            "type": "spritesheet",
+            "key": "rain",
+            "url": "assets/images/rain.png",
+            "frameWidth": 32,
+            "frameHeight": 32,
+            "frameMax": -1,
+            "margin": 0,
+            "spacing": 0
+        }
+    ],
+    "start": [{
+        "type": "image",
+        "key": "tap-to-start",
+        "url": "assets/images/tap-to-start.png",
+        "overwrite": false
+    }],
+    "preload": [{
+        "type": "image",
+        "key": "loading",
+        "url": "assets/images/loading.png",
+        "overwrite": false
+    }],
+    "meta": {
+        "generated": "1483384921364",
+        "app": "Phaser Editor",
+        "url": "http://phasereditor.boniatillo.com",
+        "version": "1.0",
+        "copyright": "Arian Fornaris (c) 2015,2016"
+    }
+}
