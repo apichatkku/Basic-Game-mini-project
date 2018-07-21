@@ -1,5 +1,6 @@
 # University of The Dead
 ## Mini Project ของวิชา 322218 Basic OF GAME PROGAMMING
+## ปี3 ภาคการศึกษาที่ 1/2559
 ## ตัวอย่าง http://www.twachi.net/webclass/322218/2559/g11/index.html
 ### งานที่ได้รับมอบหมาย
 ### - รับผิดชอบเขียนโค้ด 99% ของโปรเจคทั้งหมด
